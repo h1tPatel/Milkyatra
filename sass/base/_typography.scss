@@ -1,0 +1,90 @@
+/* Typography */
+.font {
+    font-weight: bold;
+}
+
+.text {
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text img {
+    max-width: 100%;
+    height: auto;
+}
+
+.collaborate {
+    padding: 0;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.text-headings { 
+    font-weight: 900; /* Boldness adjusted for better readability */
+    margin-top: 45px;
+    color: black;
+    font-size: 40px; 
+    letter-spacing: 0.07em; 
+    // text-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+}
+
+.header-txt{
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+font-weight: bolder;
+color: black;
+}
+.paragraph-txt {
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px; 
+    line-height: 1.6; 
+    letter-spacing: 0.5px; 
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* Main Heading Style */
+p.heading {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: black;
+        font-size: 3em;
+}
+
+/* Subheading Style */
+p.subheading {
+    font-family: 'poppins', Helvetica, Arial, sans-serif;
+    font-size: 2em; 
+    font-weight: bold; 
+    color: #4A4A4A; 
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-transform: none;
+}
+/* Body Text Style */
+p {
+    font-family: 'poppins', Helvetica, Arial, sans-serif;
+    font-size: 1.1em; /* Standard body text size */
+    color: #6A6A6A; /* Even lighter for easy reading */
+    line-height: 1.6; /* Enhanced readability for longer text */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.light-txt {
+    
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #8d8d8d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .light-bold-txt {
+    font-weight: 500;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }

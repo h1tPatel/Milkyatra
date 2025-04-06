@@ -1,0 +1,100 @@
+.logo {
+    width: 330px;
+    color: blue;
+    font-weight: bolder;
+}
+
+
+header {
+    background-color: rgb(35, 35, 35);
+}
+
+.header-txt{
+    // font-family: 'Borel', cursive;
+    // font-family: 'Cormorant', serif;
+    // font-family: 'Kanit', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-section{
+    margin-left: 30px;
+}
+
+.header-details{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: bold;
+    // margin-top: -5px;
+    margin-bottom: -70px;
+    letter-spacing: 2px;
+    word-wrap: break-word; /* Older, for broad compatibility */
+    overflow-wrap: break-word; /* Recommended, effectively the same */
+}
+.myname{
+color: red;
+margin-left: 5px;
+  word-wrap: break-word; /* Older, for broad compatibility */
+    overflow-wrap: break-word; /* Recommended, effectively the same */
+}
+
+    .hero-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // height: 10%; 
+        // scale: 1.2;
+        width: auto; 
+        margin-top: -34px;
+        -webkit-mask-image: linear-gradient(to top, transparent, black 10%);
+        mask-image: linear-gradient(to top, transparent, black 10%);
+        border-radius: 23px;
+        overflow-x: hidden;
+    }
+.radius{
+    overflow-x: auto;
+    margin-left: -45px;
+
+}
+   
+     .secondary-txt{
+        letter-spacing: 1px;
+        padding-top:70px;
+        font-weight: 400px;
+        color:rgb(0, 0, 0);
+    }
+
+    .top-text{
+        color: white;
+        font-family: 'Kanit', sans-serif;
+    }
+    .secondary-txt{
+        letter-spacing: 1px;
+    }
+    @media (max-width: 768px) {
+        .header-txt{
+            font-size: 20px;
+           }
+         .header-details{
+            font-size: 60px;
+         }
+    }
+/* Styles for the container of the images */
+.image-row {
+    display: flex; /* Use flexbox to layout the images */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Align the images vertically */
+    gap: 10px; /* Space between images */
+}
+
+/* Styles for individual images */
+.image-item {
+    width: 220px; /* Set each image to be 220px wide */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the images cover the area properly */
+}

@@ -1,0 +1,195 @@
+.white-txt{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.small-txt{
+    padding: 14px;
+  color:rgb(224 207 207);
+  line-height: 27px;
+}
+.expertise-heading{
+    font-family: 'Cormorant', serif;
+    margin-top: 45px;
+    color: white;
+    font-size: 35px;
+    padding-left: 30px;
+    // background-color:    rgb(41 41 41);
+}
+.expertise-box {
+ background-color:    rgb(41 41 41);
+margin-bottom: 20px;
+border-radius: 8px;
+// box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+box-shadow: 1px 1px 11px #39FF14;
+
+}
+@media (max-width: 1200px) {
+    .expertise-heading {
+        margin-top: -0px;
+    }
+}
+
+.card {
+    width: 100%; /* Adjust based on your layout */
+    max-width: 340px; /* Example width, adjust as needed */
+    margin: auto;
+    background: #FFFFFF; /* Or use a soft gradient */
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.12);
+  }
+  
+  .heading {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0 20px;
+  }
+  
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Example color, adjust as needed */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cta .hover-underline-animation {
+    position: relative;
+  }
+  
+  .cta .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: white;
+    transition: width .2s ease, background-color .5s ease;
+  }
+  
+  .cta:hover .hover-underline-animation::after {
+    width: 100%;
+    left: 0;
+    background: currentColor;
+  }
+  
+  .arrow-horizontal {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .cta:hover #arrow-horizontal {
+    transform: translateX(5px);
+  }
+
+  
+ /* Delivery partners */
+.delivery-partners {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  flex-wrap: wrap; /* Enable wrapping */
+}
+
+/* Image styling */
+.delivery-partners img {
+  max-width: 100%; /* Set max width to 100% */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 250px; /* Max width of 250px */
+  margin: 0 10px; /* Add some space between images */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .delivery-partners img {
+      max-width: calc(50% - 20px); /* Set max width to 50% of the container width */
+      margin: 10px; /* Add margin to separate images */
+  }
+}
+
+.milk-info section{
+  padding-bottom: 50px;
+}
+
+
+
+
+// balanced nutrition
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-container,
+.image-container {
+  flex: 6; /* Adjust to fit six columns */
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container img {
+  margin-bottom: 10px;
+  width: 100%; /* Adjust width as needed */
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .text-container,
+  .image-container {
+    flex: 1;
+    order: 1;  /* Order property to control stacking order */
+  }
+  
+  .image-container {
+    order: 0;  /* Images stacked first on mobile */
+  }
+  
+  .image-container img {
+    margin-bottom: 0;
+  }
+  .images-box{
+    order: 0;
+  }
+}
+

@@ -1,0 +1,59 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    // background-image: url(../image/background.jpg);
+    // background-color: rgb(35, 35, 35);
+    color: rgb(0, 0, 0);
+    // background-color: #232323;
+   overflow-x: hidden;
+    
+.hidden{
+    display: none;
+}
+.center {
+    display: block; /* Change the display from inline to block */
+    margin-left: auto; /* Centering horizontally */
+    margin-right: auto; /* Centering horizontally */
+  }
+  .fab {
+    font-size: 24px; /* Change the size of the icons */
+    color: #ffffff; /* Change the color of the icons */
+}
+.highlight-effect {
+    border: 2px solid #007BFF; /* Change the color and width as needed */
+    box-shadow: 0 0 15px #007BFF; /* Optional: Adds a glow effect */
+    transition: all 0.3s ease-in-out;
+}
+}
+.header-padding{
+  padding-top: 150px;
+}
+.images{
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+.Padding-top{
+  padding-top: 30px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center images */
+  border-radius: 8px; /* Add rounded corners */
+ 
+}
+
+.padding {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f2f2f2; /* Light gray background color */
+  border-radius: 8px; /* Rounded corners */
+}
+.center {
+  text-align: center;
+}

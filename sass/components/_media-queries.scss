@@ -1,0 +1,72 @@
+/* Media Queries */
+@media only screen and (min-width: 1200px) {
+    .menu img {
+        display: none;
+    }
+    .menu ul {
+        display: flex;
+    }
+}
+
+// @media(max-width: 768px) {
+//     .hamburger {
+//         display: block;
+//     }
+// .navbar li a{
+//     color: black;
+// }
+//     .nav-menu {
+//         position: fixed;
+//         left: -100%;
+//         top: 10px;
+//         gap: 0;
+//         background-color: aliceblue;
+//         width: 80%;
+//         text-align: center;
+//         transition: 0.3s;
+//         height: 98px;
+//     }
+
+//     .nav-item {
+//         margin: 16px 0;
+//     }
+
+//     .nav-menu.active {
+//         left: 0;
+//         height: 98px;
+//         width: 90%;
+//     }
+
+//     .hamburger.active .bar:nth-child(2) {
+//         opacity: 0;
+//     }
+
+//     .hamburger.active .bar:nth-child(1) {
+//         transform: translateY(8px) rotate(45deg);
+//     }
+
+//     .hamburger.active .bar:nth-child(3) {
+//         transform: translateY(-8px) rotate(-45deg);
+//     }
+// }
+
+
+
+@media (max-width: 768px) {
+    .header-details {
+        margin-bottom: -40px; /* Remove bottom margin from all */
+        font-size: 40px; /* Keep your desired font size */
+    }
+    
+  
+  
+    .img-wrapper img {
+      width: auto; /* Adjust image sizes */
+      max-width: 100%;
+    }
+  
+    .expertise-box, .testimonial-box, .contact-form-container {
+      padding: 10px; /* Adjust padding */
+    }
+  }
+  

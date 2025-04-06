@@ -1,0 +1,65 @@
+// .logo {
+//     width: 300px;
+//     color: blue;
+//     font-weight: bolder;
+// }
+
+
+header {
+    background-color: #036147;
+   
+}
+
+.header-txt{
+   font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+}
+
+
+.hero-section{
+    background-image: url('../images/hero-image1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.extralarge-text{
+    color: rgb(240, 119, 26);
+    font-size: 1.5em;
+}
+@media screen and (min-width: 1024px) {
+    .extralarge-text{
+        font-size: 1.9em;
+        color: rgb(240, 119, 26);
+    }
+}
+@media screen and (max-width: 475px) {
+   .header-txt{
+     font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+   }
+   .extralarge-text{
+    font-size: 55px;
+    color: rgb(240, 119, 26);
+   }
+}
+
+.white-color{
+    color: white;
+}
+.blue-color{
+    color: #002fff;
+}
+
+.home-btn{
+  background-color:rgb(240, 119, 26);
+}

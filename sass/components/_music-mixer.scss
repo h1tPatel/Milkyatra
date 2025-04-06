@@ -1,0 +1,95 @@
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-content p {
+    padding-top: 20px;
+    color: rgb(224 207 207);
+
+}
+
+// .left-section, .right-section {
+//     // background-color: #292929;
+//     color: white;
+//     padding: 20px;
+//     border-radius: 8px;
+//     margin-bottom: 20px;
+//     // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+// }
+
+.left-section {
+    margin-right: 50%;
+    padding-right: 40px;
+}
+
+.right-section {
+    margin-left: 50%;
+    padding-left: 40px;
+}
+
+.project-header, h1,h2{
+    font-family: "Cormorant", serif;
+    font-size: 1.6em;
+    color: #ffffff;
+    padding-top:40px;
+}
+.project-features p {
+    padding-top:5px; 
+
+}
+.gallery-img{
+    
+    max-width: 100%;
+    height: auto;
+}
+
+.text img{
+    border-radius: 19px;
+}
+
+.github-link {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.github-link:hover {
+    background-color: #0056b3;
+}
+.next-link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: color 0.7s ease;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.next-link:hover {
+    color: #007BFF;
+}
+
+.next-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #007BFF;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.next-link:hover::before {
+    width: 100%;
+    left: 0;
+}

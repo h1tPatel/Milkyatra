@@ -1,0 +1,128 @@
+// .header {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+.secondary-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: fit-content;
+}
+
+
+
+.lower-box {
+    margin: -50px auto 50px; 
+}
+
+.companies {
+    margin-top: 90px;
+}
+
+.conceptual-projects {
+    height: 200px;
+}
+
+
+
+
+
+/* Color & Themes */
+.color {
+    // background: radial-gradient(circle at center, #007BFF, #0056B3);
+    background-color:  rgb(41 41 41);
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.shadow {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background: radial-gradient(at center, #e8f2ff, #e1baff);
+}
+
+.rounded-img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 180px;
+}
+
+.lower-box img {
+    width: 90px;
+}
+
+.image-container {
+    /* Container for the images */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the space between images */
+}
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3));
+    transition: all 0.4s ease-out;
+    z-index: 1;
+}
+
+.img-wrapper img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-wrapper:nth-child(odd):hover img {
+    transform: scale(1.03) rotate(3deg);
+    filter: brightness(0.8);
+}
+
+.img-wrapper:nth-child(even):hover img {
+    transform: scale(1.03) rotate(-3deg);
+    filter: brightness(0.8);
+}
+
+.hover-text {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffffff;
+    opacity: 0;
+    transition: all 0.6s ease;
+    z-index: 2;
+}
+
+.img-wrapper:hover .hover-text {
+    opacity: 1;
+    top: 50%;
+}
+
+.box {
+   
+    margin: auto;
+    background: #FFFFFF; /* Or use a soft gradient */
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
